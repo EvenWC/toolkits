@@ -9,9 +9,9 @@ spring:
     #password:
     #username:
   redis:
-    host: 47.98.158.193
-    port: 6378
-    password: evan
+    #host:
+    #port:
+    #password:
   session:
     store-type: redis
 
