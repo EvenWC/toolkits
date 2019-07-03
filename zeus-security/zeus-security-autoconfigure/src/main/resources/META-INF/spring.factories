@@ -1,0 +1,21 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+priv.wangcheng.zeus.security.autoconfigure.core.SecurityCoreAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.social.SocialAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.social.QQAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.social.WeixinAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.social.OpenIdAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.authentication.mobile.SmsAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.browser.BrowserBeanAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.browser.BrowserConfigureBeanAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.browser.BrowserAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.social.BrowserSocialEndpointAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.validate.code.ValidateCodeProcessorAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.validate.code.ValidateCodeBeanAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.validate.code.ValidateCodeAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.authorize.AuthorizeAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.app.Oauth2BeanAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.app.Oauth2TokenStoreAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.app.Oauth2ResourceServerAutoConfiguration,\
+priv.wangcheng.zeus.security.autoconfigure.app.Oauth2AuthorizationServerAutoConfiguration
+

@@ -1,0 +1,17 @@
+.validate-warp{
+    padding: 7px 0;
+    margin-top: 15px;
+}
+
+.validate{
+    border:1px solid #e9e9e9;
+    border-radius: 2px;
+    display:inline-block;
+}
+
+.code{
+    width: 100px;
+}
+.input{
+    padding: 5px 0;
+}

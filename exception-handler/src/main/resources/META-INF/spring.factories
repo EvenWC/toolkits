@@ -1,0 +1,4 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+priv.wangcheng.exception.configure.GlobalExceptionHandlerAutoConfiguration
+

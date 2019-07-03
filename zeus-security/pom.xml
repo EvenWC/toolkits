@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>toolkits</artifactId>
+        <groupId>priv.wangcheng</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>zeus-security</artifactId>
+    <packaging>pom</packaging>
+    <description>
+        基于spring-security进行封装，形成一个更加易于使用的安全模块
+    </description>
+    <modules>
+        <module>zeus-security-app</module>
+        <module>zeus-security-core</module>
+        <module>zeus-security-browser</module>
+        <module>zeus-security-demo</module>
+        <module>zeus-security-qq</module>
+        <module>zeus-security-weixin</module>
+        <module>zeus-security-starters</module>
+        <module>zeus-security-autoconfigure</module>
+    </modules>
+
+    <properties>
+        <zeus-security.version>1.0-SNAPSHOT</zeus-security.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>priv.wangcheng</groupId>
+                <artifactId>zeus-security-qq</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>priv.wangcheng</groupId>
+                <artifactId>zeus-security-weixin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>priv.wangcheng</groupId>
+                <artifactId>zeus-security-browser</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>priv.wangcheng</groupId>
+                <artifactId>zeus-security-app</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>priv.wangcheng</groupId>
+                <artifactId>zeus-security-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>priv.wangcheng</groupId>
+                <artifactId>zeus-security-starter-qq</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>priv.wangcheng</groupId>
+                <artifactId>zeus-security-starter-weixin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>priv.wangcheng</groupId>
+                <artifactId>zeus-security-autoconfigure</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
