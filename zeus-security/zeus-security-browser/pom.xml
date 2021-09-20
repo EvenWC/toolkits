@@ -15,7 +15,7 @@
     </description>
 
     <properties>
-        <shiro-core.version>1.2.2</shiro-core.version>
+        <shiro-core.version>1.8.0</shiro-core.version>
     </properties>
 
     <dependencies>
